@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "karry",
-  description: "A Next.js 13 Meta Threads application",
+  description: "A Next.js 13 application",
 };
 
 export default function RootLayout({
