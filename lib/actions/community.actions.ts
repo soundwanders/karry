@@ -45,7 +45,7 @@ export async function createCommunity(
     console.error("Error creating community:", error);
     throw error;
   }
-}
+};
 
 export async function fetchCommunityDetails(id: string) {
   try {
@@ -66,7 +66,7 @@ export async function fetchCommunityDetails(id: string) {
     console.error("Error fetching community details:", error);
     throw error;
   }
-}
+};
 
 export async function fetchCommunityPosts(id: string) {
   try {
@@ -99,7 +99,7 @@ export async function fetchCommunityPosts(id: string) {
     console.error("Error fetching community posts:", error);
     throw error;
   }
-}
+};
 
 export async function fetchCommunities({
   searchString = "",
@@ -155,7 +155,7 @@ export async function fetchCommunities({
     console.error("Error fetching communities:", error);
     throw error;
   }
-}
+};
 
 export async function addMemberToCommunity(
   communityId: string,
@@ -197,7 +197,7 @@ export async function addMemberToCommunity(
     console.error("Error adding member to community:", error);
     throw error;
   }
-}
+};
 
 export async function removeUserFromCommunity(
   userId: string,
@@ -238,7 +238,7 @@ export async function removeUserFromCommunity(
     console.error("Error removing user from community:", error);
     throw error;
   }
-}
+};
 
 export async function updateCommunityInfo(
   communityId: string,
@@ -265,7 +265,7 @@ export async function updateCommunityInfo(
     console.error("Error updating community information:", error);
     throw error;
   }
-}
+};
 
 export async function deleteCommunity(communityId: string) {
   try {

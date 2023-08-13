@@ -42,7 +42,7 @@ async function Page() {
             ))}
           </>
         ) : (
-          <p className='!text-base-regular text-light-3'>No activity yet</p>
+          <p className='!text-base-regular text-light-3'>It's awfully lonely out here...</p>
         )}
       </section>
     </>
