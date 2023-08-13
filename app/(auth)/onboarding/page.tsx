@@ -21,14 +21,12 @@ async function Page() {
 
   return (
     <main className='mx-auto flex max-w-3xl flex-col justify-start px-10 py-20'>
-      <h1 className='head-text'>Onboarding</h1>
-
-      <h2 className='text-center text-2xl font-semibold text-dark-1 mb-4'>
-        Keep calm and karry on! 🐼
-      </h2>
+      <h1 className='head-text'>
+        Welcome to Karry! 🐼
+      </h1>
 
       <p className='mt-3 text-base-regular text-light-2'>
-        Complete your profile to enjoy the full benefits of karry.
+        Complete your profile to join the party.
       </p>
 
       <section className='mt-9 bg-dark-2 p-10'>
