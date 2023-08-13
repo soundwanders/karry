@@ -5,7 +5,7 @@ const nextConfig = {
     serverComponentsExternalPackages: ["mongoose"],
   },
   eslint: {
-    // Warning: ignore means we will still build project, even if it has ESLint errors
+    // Warning: ignore means  will still build project, even if it has ESLint errors
     ignoreDuringBuilds: true,
   },
   images: {
